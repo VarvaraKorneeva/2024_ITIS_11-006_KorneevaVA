@@ -34,4 +34,6 @@ while True:
         if e == '|':
             result.extend(elm_ind[i-1])
             result.extend(elm_ind[i + 1])
-    print(*set(result))
+
+    r = [int(x) for x in result]
+    print(*sorted(set(r)))

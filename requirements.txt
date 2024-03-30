@@ -2,3 +2,4 @@ Scrapy
 beautifulsoup4
 nltk
 pymorphy2
+numpy
